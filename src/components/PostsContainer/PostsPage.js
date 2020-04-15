@@ -5,7 +5,7 @@ import Post from "./Post";
 import "./Posts.css";
 // import data 
 
-const PostsPage = () => {
+const PostsPage = ({posts}) => {
   // set up state for your data
   return (
     <div className="posts-container-wrapper">
